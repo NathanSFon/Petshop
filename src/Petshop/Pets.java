@@ -1,7 +1,7 @@
 package Petshop;
 
 public class Pets {
-    protected static String sexo;
+    protected String sexo;
     protected double peso;
     protected String nome;
     protected int idade;

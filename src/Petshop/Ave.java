@@ -7,7 +7,6 @@ public class Ave extends Pets{
 
     public Ave(String nome, String sexo, int idade) {
         super(nome, sexo, idade);
-        //TODO Auto-generated constructor stub
     }
     
     public void colocarOvo() {}
