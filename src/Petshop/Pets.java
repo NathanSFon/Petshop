@@ -6,7 +6,7 @@ public abstract class Pets {
     protected int idade;
 
     public void comer(){
-        System.out.println("Com fome");
+        System.out.println("Alimentado");
     }
     public void ficarComFome(){
         System.out.println("Este animal está a muito tempo sem comer");
