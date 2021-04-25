@@ -1,11 +1,11 @@
-package Petshop;
-
 public class Cachorro extends Mamifero{
-
-    public Cachorro(String nome, String corpelo, int idade) {
-        super(nome, sexo, idade);
+    public Cachorro(String nom, String sex, int idad){
+        setNome(nom);
+        setSexo(sex);
+        setIdade(idad);
     }
 
+    @Override
     public void emitirSom(){
         System.out.println("auauauauuauauaau!");
     }

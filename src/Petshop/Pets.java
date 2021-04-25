@@ -1,25 +1,22 @@
-package Petshop;
 
-public class Pets {
+public abstract class Pets {
     protected String sexo;
     protected double peso;
     protected String nome;
     protected int idade;
 
-    public Pets(String nome, String sexo, int idade){
-        this.setNome(nome);
-        this.setsexo(sexo);
-        this.setIdade(idade);
+    public void comer(){
+        System.out.println("Com fome");
     }
-
-    public void comer(){}
-    public void ficarComFome(){}
+    public void ficarComFome(){
+        System.out.println("Este animal está a muito tempo sem comer");
+    }
     
     public void emitirSom() {
         System.out.println("Aqui é escrito o som que o Pet faz");
     }
 
-    public String getsexo() {
+    public String getSexo() {
         return sexo;
     }
     public int getIdade() {
@@ -31,7 +28,7 @@ public class Pets {
     public double getPeso() {
         return peso;
     }
-    public void setsexo(String sexo) {
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
     public void setIdade(int idade) {
