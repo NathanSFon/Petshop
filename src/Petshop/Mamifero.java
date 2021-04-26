@@ -18,7 +18,8 @@ public class Mamifero extends Pets{
         System.out.println("Nome: " + getNome());
         System.out.println("Sexo: " + getSexo());
         System.out.println("Idade: " + getIdade());
-        System.out.println("Cor do pelo: " + getCorPelo());
+        System.out.println("Peso: " + getPeso());
+        System.out.println("Cor do pelo: " + getCorPelo() + "\n");
 
     }
 

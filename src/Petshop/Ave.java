@@ -15,6 +15,15 @@ public class Ave extends Pets{
         }
     }
 
+    public void detalhes(){
+        System.out.println("nome: " + getNome());
+        System.out.println("sexo: " + getSexo());
+        System.out.println("idade: " + getIdade());
+        System.out.println("peso: " + getPeso());
+        System.out.println("periodo de gestação " + getPeriodoGestacao());
+        System.out.println("cor das penas: " + getCorPena() + "\n");
+    }
+
     public String getCorPena() {
         return corPena;
     }
