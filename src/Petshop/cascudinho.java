@@ -1,5 +1,5 @@
 public class Cascudinho extends Peixe{
-    public Cachorro(String nom, String cor int idad){
+    public Cascudinho(String nom, String cor int idad){
         setNome(nom);
         setCorEscama(cor);
         setIdade(idad);
