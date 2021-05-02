@@ -1,3 +1,5 @@
+package Animal;
+
 public class Peixe extends Pets{
     protected String corEscama;
     protected double tamanho;

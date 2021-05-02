@@ -1,3 +1,5 @@
+import Animal.*;
+
 public class main {
     public static void main(String[] args) {
        Cachorro dog = new Cachorro("Loop", "M", 8);

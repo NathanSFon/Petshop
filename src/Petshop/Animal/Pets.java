@@ -1,3 +1,4 @@
+package Animal;
 
 public abstract class Pets {
     protected String sexo;

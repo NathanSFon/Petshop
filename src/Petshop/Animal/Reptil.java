@@ -1,3 +1,5 @@
+package Animal;
+
 public class Reptil extends Pets{
     protected String corPele;
     protected double comprimento;

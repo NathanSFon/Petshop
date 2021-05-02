@@ -1,3 +1,4 @@
+package Animal;
 
 public class Mamifero extends Pets{
     protected String corPelo;

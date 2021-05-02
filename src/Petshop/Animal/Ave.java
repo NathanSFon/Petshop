@@ -1,3 +1,4 @@
+package Animal;
 
 public class Ave extends Pets{
     protected String corPena;

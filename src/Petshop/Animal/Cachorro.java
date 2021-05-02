@@ -1,3 +1,5 @@
+package Animal;
+
 public class Cachorro extends Mamifero{
     public Cachorro(String nom, String sex, int idad){
         setNome(nom);

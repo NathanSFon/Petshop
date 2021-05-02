@@ -1,3 +1,5 @@
+package Animal;
+
 public class Papagaio extends Ave{
 
     public Papagaio(String nom, String sex, int idad){
